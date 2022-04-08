@@ -12,6 +12,8 @@
 		130F4E8028008EB600A453E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130F4E7F28008EB600A453E7 /* Assets.xcassets */; };
 		130F4E8328008EB600A453E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130F4E8228008EB600A453E7 /* Preview Assets.xcassets */; };
 		130F4E8C280091BD00A453E7 /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130F4E8B280091BD00A453E7 /* Today.swift */; };
+		130F4E8E2800951100A453E7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130F4E8D2800951100A453E7 /* Home.swift */; };
+		130F4E90280097BB00A453E7 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130F4E8F280097BB00A453E7 /* CustomCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		130F4E7F28008EB600A453E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		130F4E8228008EB600A453E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		130F4E8B280091BD00A453E7 /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
+		130F4E8D2800951100A453E7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		130F4E8F280097BB00A453E7 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		130F4E892800919900A453E7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				130F4E8D2800951100A453E7 /* Home.swift */,
+				130F4E8F280097BB00A453E7 /* CustomCorner.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				130F4E7E28008EB100A453E7 /* ContentView.swift in Sources */,
+				130F4E90280097BB00A453E7 /* CustomCorner.swift in Sources */,
 				130F4E8C280091BD00A453E7 /* Today.swift in Sources */,
+				130F4E8E2800951100A453E7 /* Home.swift in Sources */,
 				130F4E7C28008EB100A453E7 /* AppStoreAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

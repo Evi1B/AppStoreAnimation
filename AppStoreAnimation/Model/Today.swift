@@ -21,5 +21,5 @@ struct Today: Identifiable {
 
 var todayItems: [Today] = [
     Today(appName: "Forza Horizon 5", appDescriprion: "Racing Game", appLogo: "Logo1", bannerTitle: "You're in charge of the Horizon Festival", platformTitle: "Apple Arcade", artwork: "Post1"),
-    Today(appName: "Horizon: Forbidden West", appDescriprion: "Action/RPG", appLogo: "Logo2", bannerTitle: "Join Aloy as she braves the Forbidden West – a majestic but dangerous frontier that conceals mysterious new threats.", platformTitle: "Apple Arcade", artwork: "Post2")
+    Today(appName: "Horizon: Forbidden West", appDescriprion: "Action/RPG", appLogo: "Logo2", bannerTitle: "Join Aloy as she braves the Forbidden West", platformTitle: "Apple Arcade", artwork: "Post2")
 ]
